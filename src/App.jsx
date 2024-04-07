@@ -5,7 +5,10 @@ import Score from "./components/score/Score";
 function App() {
   return (
     <>
-      <Result />
+      <div className="mmain">
+        <Result />
+        <Score />
+      </div>
     </>
   );
 }

@@ -1,0 +1,31 @@
+.bottom-con {
+  background: var(--White, #fff);
+  padding: 2.4rem 3rem 3rem 3rem;
+}
+.summary {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2.4rem;
+  display: block;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.reaction {
+  border-radius: 12px;
+  background: var(
+    --red-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #f55
+  );
+}
