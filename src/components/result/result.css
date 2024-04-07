@@ -12,7 +12,7 @@
   align-items: center;
 }
 .circle {
-  /* fill: var(
+  background: var(
     --Gradient-2,
     linear-gradient(
       180deg,
@@ -21,10 +21,16 @@
       rgba(37, 33, 201, 0) 100%,
       rgba(37, 33, 201, 0) 100%
     )
-  ); */
-  background: red;
-  width: 50%;
-  height: 50%;
+  );
+
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2.4rem;
 }
 .result-span {
   color: var(--Light-Blue, #cac9ff);
@@ -35,4 +41,41 @@
   font-weight: 700;
   line-height: normal;
   margin-bottom: 2.4rem;
+}
+.overall {
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px;
+}
+.hundred {
+  color: var(--Light-Blue, #cac9ff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: center;
+}
+.great {
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.8rem;
+}
+.perfomance {
+  color: var(--Light-Blue, #cac9ff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Hanken Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
