@@ -8,7 +8,6 @@
 @media (min-width: 90rem) {
   .mmain {
     max-width: 150rem;
-    margin: 0 auto;
     flex-direction: row;
     min-height: 100vh;
     background: var(--Very-Light-blue, #ecf2ff);
