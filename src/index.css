@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 body {
-  background: var(--Very-Light-blue, #fff);
   font-family: "Hanken Grotesk", sans-serif;
   height: 100vh;
   display: flex;

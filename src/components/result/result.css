@@ -10,8 +10,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* max-width: 50rem;
-  margin: 0 auto; */
 }
 .circle {
   background: var(
