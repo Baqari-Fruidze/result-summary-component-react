@@ -1,6 +1,8 @@
 .bottom-con {
   background: var(--White, #fff);
   padding: 2.4rem 3rem 3rem 3rem;
+  /* margin: 0 auto;
+  max-width: 50rem; */
 }
 .summary {
   color: var(--Dark-Navy, #303b59);
@@ -146,4 +148,61 @@
   width: 100%;
   padding: 1.8rem 0;
   border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
+  );
+}
+@media (min-width: 90rem) {
+  .bottom-con {
+    padding: 3.6rem 4rem 4.6rem 4rem;
+  }
+  .summary {
+    color: var(--Dark-Navy, #303b59);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2.8rem;
+  }
+  .reaction-span {
+    font-size: 18px;
+  }
+  .span-memory {
+    font-size: 18px;
+  }
+  .verbal-span {
+    font-size: 18px;
+  }
+  .visual-span {
+    font-size: 18px;
+  }
+  .numone {
+    color: var(--Dark-Navy, #303b59);
+    text-align: right;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .numtwo {
+    color: var(--Dark-Navy, #303b59);
+    text-align: right;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .o {
+    gap: 8rem;
+  }
 }

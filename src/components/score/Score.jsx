@@ -10,7 +10,7 @@ export default function Score() {
       <div className="bottom-con">
         <span className="summary">summary</span>
         <div className="parent">
-          <div className="reaction">
+          <div className="o reaction">
             <div className="mini">
               <img src={reaction} alt="" />
               <span className="reaction-span">reaction</span>
@@ -20,7 +20,7 @@ export default function Score() {
               <span className="numtwo">/100</span>
             </div>
           </div>
-          <div className="memory">
+          <div className="o  memory">
             <div className="mini">
               <img src={memory} alt="" />
               <span className="span-memory">Memory</span>
@@ -30,7 +30,7 @@ export default function Score() {
               <span className="numtwo">/100</span>
             </div>
           </div>
-          <div className="verbal">
+          <div className="o  verbal">
             <div className="mini">
               <img src={verbal} alt="" />
               <span className="verbal-span">Verbal</span>
@@ -40,7 +40,7 @@ export default function Score() {
               <span className="numtwo">/100</span>
             </div>
           </div>
-          <div className="visual">
+          <div className="0  visual">
             <div className="mini">
               <img src={visual} alt="" />
               <span className="visual-span">Visual</span>

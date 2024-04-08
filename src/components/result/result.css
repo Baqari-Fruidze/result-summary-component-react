@@ -10,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* max-width: 50rem;
+  margin: 0 auto; */
 }
 .circle {
   background: var(
@@ -78,4 +80,63 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+@media (min-width: 90rem) {
+  .blue {
+    padding: 3.8rem 5.4rem 5.5rem 5.4rem;
+    border-radius: 32px;
+  }
+  .result-span {
+    color: var(--Light-Blue, #cac9ff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+    margin-bottom: 3.5rem;
+  }
+  .circle {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 2.8rem;
+  }
+  .overall {
+    color: var(--White, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px; /* 100% */
+  }
+  .hundred {
+    color: var(--Light-Blue, #cac9ff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .great {
+    color: var(--White, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.4rem;
+  }
+  .perfomance {
+    color: var(--Light-Blue, #cac9ff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 25ch;
+  }
 }
