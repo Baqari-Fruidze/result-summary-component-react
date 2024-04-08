@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  margin-bottom: 2.4rem;
 }
 .reaction {
   border-radius: 12px;
@@ -28,4 +29,121 @@
     ),
     #f55
   );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem;
+}
+.mini {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.reaction-span {
+  color: var(--Red, #f55);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Hanken Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.numone {
+  color: var(--Dark-Navy, #303b59);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 0.8rem;
+}
+.numtwo {
+  color: var(--Dark-Navy, #303b59);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.5;
+}
+.memory {
+  border-radius: 12px;
+  background: var(
+    --yellow-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #ffb21e
+  );
+  padding: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.span-memory {
+  color: var(--Yellow, #ffb21e);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.verbal {
+  padding: 1.8rem;
+  border-radius: 12px;
+  background: var(
+    --green-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f
+  );
+  display: flex;
+  justify-content: space-between;
+}
+.verbal-span {
+  color: var(--Green, #00bb8f);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.visual {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem;
+  border-radius: 12px;
+  background: var(
+    --blue-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #1125d6
+  );
+}
+.visual-span {
+  color: var(--Blue, #1125d6);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.btn {
+  border-radius: 128px;
+  background: var(--Dark-Navy, #303b59);
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  padding: 1.8rem 0;
+  border: none;
 }

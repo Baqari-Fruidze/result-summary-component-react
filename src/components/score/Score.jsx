@@ -11,19 +11,47 @@ export default function Score() {
         <span className="summary">summary</span>
         <div className="parent">
           <div className="reaction">
-            <div>
+            <div className="mini">
               <img src={reaction} alt="" />
-              <span>reaction</span>
+              <span className="reaction-span">reaction</span>
             </div>
-            <div>
-              <span>80</span>
-              <span>/100</span>
+            <div className="numbers">
+              <span className="numone">80</span>
+              <span className="numtwo">/100</span>
             </div>
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="memory">
+            <div className="mini">
+              <img src={memory} alt="" />
+              <span className="span-memory">Memory</span>
+            </div>
+            <div>
+              <span className="numone">92</span>
+              <span className="numtwo">/100</span>
+            </div>
+          </div>
+          <div className="verbal">
+            <div className="mini">
+              <img src={verbal} alt="" />
+              <span className="verbal-span">Verbal</span>
+            </div>
+            <div>
+              <span className="numone">61</span>
+              <span className="numtwo">/100</span>
+            </div>
+          </div>
+          <div className="visual">
+            <div className="mini">
+              <img src={visual} alt="" />
+              <span className="visual-span">Visual</span>
+            </div>
+            <div>
+              <span className="numone">61</span>
+              <span className="numtwo">/100</span>
+            </div>
+          </div>
         </div>
+        <button className="btn"> continue</button>
       </div>
     </>
   );
